@@ -17,6 +17,15 @@
 		<version>2.0.4.RELEASE</version>
 
 	</parent>
+	
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repository.spring.release</id>
+            <name>Spring GA Repository</name>
+            <url>https://repo.spring.io/plugins-release/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
